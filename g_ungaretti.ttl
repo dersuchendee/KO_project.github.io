@@ -1,0 +1,16 @@
+@prefix rdf: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix crm: <http://cidoc-crm.org/>.
+@prefix ko: <http://KOproject.it/>.
+@prefix owl:<http://www.w3.org/2002/07/owl#>.
+@prefix wn:<http://www.w3.org/2006/03/wn/wn20/schema/>.
+
+ko:g_ungaretti  rdf:type                crm:E39_Actor ;
+        crm:P107_is_current_or_former_member_of
+                ko:symbolism , ko:sorbonne ;
+        crm:P108_has_produced           ko:veglia ;
+        crm:P138_has_representation_of  ko:monument_g_ungaretti ;
+        crm:P1_is_identified_by         "Giuseppe Ungaretti" ;
+        owl:sameAs                      <https://lccn.loc.gov/n79054552> , <http://viaf.org/viaf/89710987> ;
+        wn:hyponymOf                    <http://dbpedia.org/ontology/writer> .
+

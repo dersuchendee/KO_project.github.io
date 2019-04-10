@@ -1,0 +1,13 @@
+@prefix rdf: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix crm: <http://cidoc-crm.org/>.
+@prefix ko: <http://KOproject.it/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix gn: <http://www.geonames.org/ontology#>.
+
+ko:monte_san_michele  crm:P87_is_identified_by
+                "Monte San Michele" ;
+        crm:P8_witnessed          ko:WWI ;
+        gn:countrycode            "IT" ;
+        owl:differentFrom         <http://www.geonames.org/6694801> , <http://www.geonames.org/3167964> ;
+        owl:sameAs                <http://www.geonames.org/7521408>.

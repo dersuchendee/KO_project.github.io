@@ -1,0 +1,13 @@
+@prefix rdf: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dcterms: "http://purl.org/dc/terms/".
+@prefix bibo:"http://purl.org/ontology/bibo/".
+@prefix crm: <http://cidoc-crm.org/>.
+@prefix ko: "http://KOproject.it".
+
+ko:WWI  rdf:type                 crm:E5_Event ;
+        crm:P11_had_partecipant  ko:g_ungaretti ;
+        crm:P129_is_subject_of   ko:veglia ;
+        crm:P12_occurred_in_presence_of
+                ko:biography_g_siligardi ;
+        dcterms:coverage         "1915-1918" ;
+        dcterms:description      "World War I (WWI or WW1), also known as the First World War, or the Great War, was a global war originating in Europe that lasted from 28 July 1914 to 11 November 1918. It was one of the deadliest conflicts in history, and paved the way for major political changes, including revolutions in many of the nations involved."
